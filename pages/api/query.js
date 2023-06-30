@@ -5,8 +5,8 @@ import MyFileModel from '@/src/models/MyFile';
  
 /**
  * Handles the request to answer a question based on a given file's context.
- * @param {Object} req - The request object.
- * @param {Object} res - The response object.
+ * @param "{Object}" req - The request object.
+ * @param "{Object}" res - The response object.
  */
 export default async function handler(req, res) { 
     try {
