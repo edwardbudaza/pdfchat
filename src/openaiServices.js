@@ -59,7 +59,7 @@ export const getCompletion = async (prompt) => {
 
         console.log(completion.data.choices);
         
-        return completion.data.choices[0].text;
+        return completion.data.choices[0].text; 
     } catch (error) {
         // Handle generation error
         console.error('Error generating completion:', error.message);
